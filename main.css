@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(./image/bg5.jpg) no-repeat;
-  background-size: 100% auto;
+  background: url(./image/bg5.jpg);
+  --no-repeat background-size: 100% auto;
   font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
 }
 .header {
@@ -11,7 +11,6 @@ body {
   background: url(./image/banner1.jpg) no-repeat;
   background-size: 100%auto;
   margin: 100px auto 0 auto;
-
 }
 .header h1 {
   font-size: 40px;
@@ -32,17 +31,6 @@ body {
   margin: 0 auto;
   border: 3px solid #FFFFFF;
 }
-.slides {
-  list-style: none;
-  margin: 0 0;
-}
-.wide-section {
-  width: 950px;
-  height: 300px;
-  background:#FFFFFF;
-  margin: 0;
-}
-
 #menu {
   width: 950px;
   height: 50px;
@@ -66,7 +54,380 @@ body {
 #menu>li a.current {
   text-decoration: underline;
 }
-
 #menu>li a:hover {
   text-decoration: underline;
+}
+.block-1 {
+  width: 950px;
+  height: 470px;
+  background: #FFFFFF;
+  margin: 0 auto 0 auto;
+}
+.block-1 h1 {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 67px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-1 h3 {
+  font-size: 15px;
+  color: #777;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 28px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-1_line {
+  width: 150px;
+  height: 3px;
+  background: #555;
+  position: relative;
+  margin: 80px auto 0 400px;
+}
+.block-1-inner {
+  width: 800px;
+  height: 300px;
+  background: #ffffff;
+  margin: 20px auto 0 auto;
+}
+.block-1-arr {
+  width: 250px;
+  height: 200px;
+  background: #ffffff;
+  margin: 20px auto 0 auto;
+  display: inline-block;
+  --line-height: 50px;
+  margin: 30px 5px 0px 5px;
+}
+.block-1-arr h2 {
+  font-size: 25px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 30px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-1-arr h4 {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-1-image-1 {
+  height: 100px;
+  width: 100px;
+  --border-radius: 100%;
+  background: url(./image/section-1.png) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 30px;
+}
+.block-1-image-2 {
+  height: 100px;
+  width: 100px;
+  --border-radius: 100%;
+  background: url(./image/section-2.png) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 30px;
+}
+.block-1-image-3 {
+  height: 100px;
+  width: 100px;
+  --border-radius: 100%;
+  background: url(./image/section-3.png) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 30px;
+}
+.block-2 {
+  width: 950px;
+  height: 1100px;
+  background: #FFFFFF;
+  margin: 4px auto 0 auto;
+}
+.block-2 h1 {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 67px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-2_line {
+  width: 150px;
+  height: 3px;
+  background: #555;
+  position: relative;
+  margin: 80px auto 0 400px;
+}
+.block-2-1-inner {
+  width: 800px;
+  height: 300px;
+  background: #ffffff;
+  margin: 10px auto 0 auto;
+}
+.block-2-1-arr {
+  width: 330px;
+  height: 200px;
+  background: #ffffff;
+  margin: 20px auto 0 auto;
+  display: inline-block;
+  --line-height: 50px;
+  margin: 30px 5px 0px 5px;
+}
+.block-2-1-image-1 {
+  height: 200px;
+  width: 200px;
+  background: url(./image/section-2-1.png) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 10px;
+}
+.block-2-1-image-2 {
+  height: 200px;
+  width: 200px;
+  background: url(./image/section-2-2.jpg) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 10px;
+}
+.block-2-1-image-3 {
+  height: 200px;
+  width: 200px;
+  background: url(./image/section-2-3.jpg) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 10px;
+}
+.block-2-1-arr h2 {
+  font-size: 30px;
+  color: #555;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: -60px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-2-1-arr h4 {
+  font-size: 20px;
+  color: #777;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: -40px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-2-1-arr h3 {
+  font-size: 13px;
+  color: #999;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: -30px;
+  font-weight: 100;
+  font-style: normal;
+}
+.block-2-1-arr h1 {
+  font-size: 15px;
+  color: #777;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-3 {
+  width: 950px;
+  height: 650px;
+  background: #FFFFFF;
+  margin: 4px auto 0 auto;
+}
+.block-3 h1 {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 67px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-3 h2 {
+  font-size: 20px;
+  color: #888;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 20px;
+  font-weight: 100;
+  font-style: normal;
+}
+.block-3_line {
+  width: 150px;
+  height: 3px;
+  background: #555;
+  position: relative;
+  margin: 80px auto 0 400px;
+}
+.block-3-1 {
+  height: 180px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 50px auto 0 auto;
+}
+.block-3-1-image1, .block-3-1-image2, .block-3-1-image3, .block-3-1-image4 {
+  height: 172px;
+  width: 220px;
+  background: url(./image/section-3-1.jpg) no-repeat;
+  display: inline-block;
+  background-size: 100%auto;
+  position: relative;
+  margin: 0 auto 0 auto;
+  top: 10px;
+}
+.block-3-1-image2 {
+  background: url(./image/section-3-2.jpg) no-repeat;
+}
+.block-3-1-image3 {
+  background: url(./image/section-3-3.jpg) no-repeat;
+}
+.block-3-1-image4 {
+  background: url(./image/section-3-4.jpg) no-repeat;
+}
+.block-3-2 {
+  height: 180px;
+  background: #FFFFFF;
+  text-align: center;
+  margin: 4px auto 0 auto;
+}
+.block-3-2-image1, .block-3-2-image2, .block-3-2-image3, .block-3-2-image4 {
+  height: 172px;
+  width: 220px;
+  background: url(./image/section-3-5.jpg) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  top: 10px;
+}
+.block-3-2-image2 {
+  background: url(./image/section-3-6.jpg) no-repeat;
+}
+.block-3-2-image3 {
+  background: url(./image/section-3-7.jpg) no-repeat;
+}
+.block-3-2-image4 {
+  background: url(./image/section-3-8.jpg) no-repeat;
+}
+.block-4 {
+  width: 950px;
+  height: 450px;
+  background: #FFFFFF;
+  margin: 4px auto 0 auto;
+}
+.block-4 h1 {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 67px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-4_line {
+  width: 150px;
+  height: 3px;
+  background: #555;
+  position: relative;
+  margin: 80px auto 0 400px;
+}
+.block-4-1 {
+  height: 200px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 50px auto 0 auto;
+}
+.block-4-image1, .block-4-image2, .block-4-image3, .block-4-image4 {
+  height: 160px;
+  width: 160px;
+  background: url(./image/section-4-1.png) no-repeat;
+  background-size: 100%auto;
+  position: relative;
+  display: inline-block;
+  margin: 0 15px 0 auto;
+  top: 20px;
+}
+.block-4-image2 {
+  background: url(./image/section-4-2.png) no-repeat;
+}
+.block-4-image3 {
+  background: url(./image/section-4-3.png) no-repeat;
+}
+.block-4-image4 {
+  background: url(./image/section-4-4.png) no-repeat;
+}
+.block-4-2 {
+  height: 50px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 15px auto 0 auto;
+}
+.block-4-2-4 {
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  color: #777;
+  background-size: #FFF;
+  position: relative;
+  display: inline-block;
+  margin: 0 125px 0 auto;
+  top: -10px;
+}
+.block-5 {
+  width: 950px;
+  height: 400px;
+  background: #FFFFFF;
+  margin: 4px auto 0 auto;
+}
+.block-5 h1 {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 67px;
+  font-weight: 300;
+  font-style: normal;
+}
+.block-5_line {
+  width: 150px;
+  height: 3px;
+  background: #555;
+  position: relative;
+  margin: 80px auto 0 400px;
 }
